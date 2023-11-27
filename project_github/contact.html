@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Brews &#8285; Beans &#8285; Baked Goods</title>
+	  <!--
+	     Brews, Beans, Baked Goods main web page
+		 Filename: Contact.html
+		 
+		 Author:   Remigio de la Rosa
+		 Date:     10/26/2023
+		 HTML and CSS3 Independent Project
+	  -->
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <script src="modernizr.custom.62074.js"></script>
+	  <link rel="stylesheet" href="styles.css">
+   </head>  
+   <body>
+      <div class="container">
+	     <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+         <header>
+            <h1>Brews &#8285; Beans &#8285; Baked Goods</h1>
+	     </header>
+	     <nav class="sitenavigation">
+	     <div class="navigation-menu-button">
+	        <img src="images/menu.png" width="63" height="57" alt="Show navigation">
+	     </div>
+	     <ul>
+		    <li><a href="index.html">Home</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="https://maps.app.goo.gl/ZKMUVfJGsazC8fe5A" target="_blank">Location</a></li>
+		 </ul>
+	     </nav>
+	     <h2 class="contactus" id="contentstart">Contact Us</h2>
+		 <form action="results.html">
+		    <fieldset class="contactinfo">
+			   <legend>Contact Information</legend>
+			   <label for="nameinput">
+			      Name
+				  <input type="text" name="name" id="nameinput" placeholder="First and last name">
+			   </label>
+			   <label for="emailinput">
+			      Email
+				  <input type="text" name="email" id="emailinput" placeholder="address@example.com">
+			   </label>
+			   <label for="phoneinput">
+			      Phone
+				  <input type="tel" name="phone" id="phoneinput">
+			   </label>
+			</fieldset>
+			<fieldset class="comments">
+			   <legend>Questions, comments, or other concerns</legend>
+			   <label for="feedback">
+			      <textarea name="feedback" id="feedback" rows="5" cols="40">
+				  </textarea>
+			   </label>
+			</fieldset>
+			<fieldset class="submitbutton">
+			   <input type="submit" id="submit" value="Submit">
+			</fieldset>
+		 </form>
+	     <footer>
+	        <p id="contact">101 Main St. &#8226; Nashville, TN &#8226; (615) 500-5000</p>
+	     </footer>		 
+	  <script src="script.js"></script>
+      </div> 	  
+   </body>
+</html>
